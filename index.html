@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jebin C | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Jebin C</h1>
+      <p>Java Full Stack Developer | UI Designer</p>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="darkModeToggle">Toggle Dark Mode</button>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>Creative and detail-oriented Java Full Stack Developer with experience in building responsive web apps and designing UI/UX solutions. Skilled in Java, Spring Boot, MySQL, and front-end tools.</p>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>Java, Spring Boot, Hibernate, JDBC</li>
+      <li>HTML, CSS, JavaScript, Responsive Design</li>
+      <li>MySQL, Photoshop, Illustrator, Corel Draw</li>
+      <li>Communication, Teamwork, Leadership</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Project Gallery</h2>
+    <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+      <img src="https://via.placeholder.com/200" alt="Project 1" />
+      <img src="https://via.placeholder.com/200" alt="Project 2" />
+      <img src="https://via.placeholder.com/200" alt="Project 3" />
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+    <p><strong>Digital Relationship Manager</strong> – EOS Globe (IDFC First Bank), 2024–Present</p>
+    <p><strong>Customer Support Executive</strong> – Seven Peaks Software, 2023–2024</p>
+    <p><strong>Java Developer Trainee</strong> – Inmakes Infotech, 2022</p>
+  </section>
+
+  <section id="education" class="section">
+    <h2>Education</h2>
+    <p>B.E. Computer Science – Anna University, 2023 (71%)</p>
+    <p>Diploma in Web Designing – CCS Educational Trust, 2023 (91%)</p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <form>
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" required /><br /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" rows="4" required></textarea><br /><br />
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Jebin C. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
